@@ -54,7 +54,7 @@ public class linkedlist1 {
      // l2.createNode();
         System.out.println("linked list created :");
         l1.show();
-    //1 l2.show();
+    // l2.show();
     }
     
 }
