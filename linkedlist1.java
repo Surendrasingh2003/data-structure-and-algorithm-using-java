@@ -11,9 +11,9 @@ public class linkedlist1 {
         }
     }
 
-    void show(Node a)
+    void show()
     {
-        Node lastNode=a;
+        Node lastNode=head;
         do{
             System.out.println(lastNode.data);
             lastNode=lastNode.next;
@@ -50,11 +50,11 @@ public class linkedlist1 {
         Scanner sc=new Scanner(System.in);
         linkedlist1 l1=new linkedlist1();
         l1.createNode();
-  //    linkedlist1 l2=new linkedlist1();
-  //    l2.createNode();
+     //linkedlist1 l2=new linkedlist1();
+     // l2.createNode();
         System.out.println("linked list created :");
-        l1.show(l1.head);
-  //    l2.show(l2.head);
+        l1.show();
+    //1 l2.show();
     }
     
 }
